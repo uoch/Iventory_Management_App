@@ -6,6 +6,10 @@
     <title>Homepage - Techium</title>
     <meta name="description" content="Description of the page less than 150 characters">
     <link rel="icon" type="image/png" href="images/favicon.jpg">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='29-style.css'>
   </head>
@@ -120,43 +124,28 @@
             <h2 class="section-title">Methdologie </h2>
             <p class="section-tagline">Everything about us</p>
           </header>
-          <div class="section-body">
-            <div class="row">
-              <div class="col-1-2">
-                <img src="images/7.png" alt="" width=1000 height=700>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/7.png" alt="" width="1000" height="700" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/8.png" alt="" width="1000" height="700" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/9.png" alt="" width="1000" height="700" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/10.png" alt="" width="1000" height="700" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/11.png" alt="" width="1000" height="700" />
               </div>
             </div>
+            <!-- Add pagination -->
+            <div class="swiper-pagination"></div>
           </div>
-          <div class="section-body">
-            <div class="row">
-              <div class="col-1-2">
-                <img src="images/8.png" alt="" width=1000 height=700>
-              </div>
-            </div>
-          </div>
-          <div class="section-body">
-            <div class="row">
-              <div class="col-1-2">
-                <img src="images/9.png" alt="" width=1000 height=700>
-              </div>
-            </div>
-          </div>
-          <div class="section-body">
-            <div class="row">
-              <div class="col-1-2">
-                <img src="images/10.png" alt="" width=1000 height=700>
-              </div>
-            </div>
-          </div>
-          <div class="section-body">
-            <div class="row">
-              <div class="col-1-2">
-                <img src="images/11.png" alt="" width=1000 height=700>
-              </div>
-            </div>
-          </div>
-
-          </div>
+          <!-- ...other code... -->
         </div>
       </section>
       
@@ -211,7 +200,7 @@
         <hr>
         <div class="row">
           <div class="col-1-2">
-            <p class="footer-copyright">© 2020 Techium, made with ♥ by students at Holberton School.</p>
+            <p class="footer-copyright">©  made with ♥ by student at Holberton School.</p>
           </div>
           <div class="col-1-2">
             <ul class="footer-nav nav">
