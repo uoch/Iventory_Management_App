@@ -4,7 +4,7 @@
 
 :root{
     --color-primary: #d73953;
-    --color-black:#090909;
+    --color-black:#303a29;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
@@ -190,6 +190,9 @@ ul.row{
 }
 .col-1-2{
     width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
 [class^="col-"]{
     float: left;
@@ -270,4 +273,19 @@ ul.row{
     position: var(--header-logo-link-position);
     top: var(--header-logo-link-top);
     left: var(--header-logo-link-left);
+}
+.card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 4px;
+  }
+  .col-1-4{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
 }
