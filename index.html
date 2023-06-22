@@ -6,10 +6,7 @@
     <title>Homepage - Techium</title>
     <meta name="description" content="Description of the page less than 150 characters">
     <link rel="icon" type="image/png" href="images/favicon.jpg">
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='29-style.css'>
   </head>
@@ -121,7 +118,7 @@
       <section id="about" class="section">
         <div class="container">
           <header class="section-header">
-            <h2 class="section-title">Methdologie </h2>
+            <h2 class="section-title">Methdologie</h2>
             <p class="section-tagline">Everything about us</p>
           </header>
           <div class="swiper-container">
@@ -148,6 +145,18 @@
           <!-- ...other code... -->
         </div>
       </section>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script src="script.js"></script>
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+        });
+      </script>
       
 
     <!-- Footer -->
