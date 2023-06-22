@@ -14,11 +14,11 @@ html {
     line-height: var(--line-height-base);
   }
 :root{
-    --color-primary: #d73953;
+    --color-primary: #423131;
     --color-black:#303a29;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
-    --color-dark-grey: #353535;
+    --color-dark-grey: #131212;
     --text-color: var(--color-black);
     --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
