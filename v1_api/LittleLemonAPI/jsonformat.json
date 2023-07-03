@@ -1,0 +1,124 @@
+KPIsAPIView
+{
+  "total_inventory": 500,
+  "total_products": 100,
+  "average_quantity": 5,
+  "low_stock_items": 20,
+  "out_of_stock_items": 10,
+  "average_inventory_value": 2500.0,
+  "inventory_turnover": 100.0
+}
+InventoryListAPIView
+[
+  {
+      "id": 1,
+      "product": {
+          "id": 1,
+          "name": "Product 1",
+          "location": "Location 1",
+          "description": "Description of Product 1",
+          "price": "10.00",
+          "category": {
+              "id": 1,
+              "name": "Category 1"
+          }
+      },
+      "quantity": 10,
+      "date_received": "2023-06-01",
+      "expiration_date": "2024-06-01",
+      "date_retrieved": null
+  },
+  {
+      "id": 2,
+      "product": {
+          "id": 2,
+          "name": "Product 2",
+          "location": "Location 2",
+          "description": "Description of Product 2",
+          "price": "20.00",
+          "category": {
+              "id": 2,
+              "name": "Category 2"
+          }
+      },
+      "quantity": 5,
+      "date_received": "2023-06-02",
+      "expiration_date": "2024-06-02",
+      "date_retrieved": null
+  }
+  ...
+]
+RetrieveGoodsAPIView
+[
+  {
+      "id": 1,
+      "name": "Product 1",
+      "location": "Location 1",
+      "description": "Description of Product 1",
+      "price": "10.00",
+      "category": {
+          "id": 1,
+          "name": "Category 1"
+      }
+  },
+  {
+      "id": 2,
+      "name": "Product 2",
+      "location": "Location 2",
+      "description": "Description of Product 2",
+      "price": "20.00",
+      "category": {
+          "id": 2,
+          "name": "Category 2"
+      }
+  }
+  ...
+]
+{
+    "count": 34,
+    "next": "http://127.0.0.1:8000/auth/users/?page=12",
+    "previous": "http://127.0.0.1:8000/auth/users/?page=10",
+    "results": [
+        {
+            "email": "",
+            "id": 32,
+            "username": "ret7"
+        },
+        {
+            "email": "93028964@gmail.com",
+            "id": 33,
+            "username": "uoch"
+        },
+        {
+            "email": "maro@littlelemon.com",
+            "id": 34,
+            "username": "rona",
+            "role": manager",
+            "store" : {
+                store_id :"5",
+                store_name : "Little Lemon",
+        }
+    ]
+}
+{
+    "product": {
+      "id": "product_id",
+      "name": "product_name",
+      "location_in_store": "product_location",
+      "description": "product_description",
+      "price": "product_price",
+      "category": {
+        "id": "category_id",
+        "name": "category_name"
+      }
+    },
+    "inventory": {
+      "id": "inventory_id",
+      "product": "product_id",
+      "available_quantity": "quantity",
+      "date_received": "received_date",
+      "expiration_date": "expiration_date",
+      "date_retrieved": null,
+      "store": "store_id"
+    }
+  }
