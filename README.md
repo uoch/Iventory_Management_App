@@ -1,5 +1,6 @@
 
-# Inventory Management App [https://uoch.github.io/Iventory_Management_App/]
+# Inventory Management App 
+[https://uoch.github.io/Iventory_Management_App/]
 ## Introduction
 Managing inventory can be a complex and tedious task for any business, but with the right tools, it can be simplified and streamlined. That's why we have developed a robust inventory management app using Django for the back end and React Native for the front end. This innovative app enhances efficiency and accuracy in inventory management, ensuring optimal organization of stock, reducing errors, and boosting productivity.
 
