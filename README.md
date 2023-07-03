@@ -1,6 +1,6 @@
 
 # Inventory Management App 
-[https://uoch.github.io/Iventory_Management_App/]
+https://uoch.github.io/Iventory_Management_App/
 ## Introduction
 Managing inventory can be a complex and tedious task for any business, but with the right tools, it can be simplified and streamlined. That's why we have developed a robust inventory management app using Django for the back end and React Native for the front end. This innovative app enhances efficiency and accuracy in inventory management, ensuring optimal organization of stock, reducing errors, and boosting productivity.
 
@@ -15,8 +15,6 @@ The Inventory Management App is built using the following technologies:
 The Inventory Management App includes the following key features:
 
 - Inventory Tracking: Keep track of all your products and their quantities in real-time. The app provides a centralized database where you can easily add, edit, and remove items from your inventory.
-
-- Barcode Scanning: Use the app to scan barcodes or QR codes to quickly add or update items in your inventory. This feature saves time and reduces manual data entry errors.
 
 Stock Alerts: Set up custom stock alerts to receive notifications when the quantity of a particular product falls below a specified threshold. This helps prevent stockouts and enables timely reordering.
 
